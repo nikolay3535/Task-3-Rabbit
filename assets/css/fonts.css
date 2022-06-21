@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "BenchNine-Light";
+    src: url("../fonts/BenchNine/BenchNine-Light.ttf");
+}
+
+@font-face {
+    font-family: "BenchNine-Bold";
+    src: url("../fonts/BenchNine/BenchNine-Bold.ttf");
+}
+
+@font-face {
+    font-family: "WireOne-Regular";
+    src: url("../fonts/Wire_One/WireOne-Regular.ttf");
+}

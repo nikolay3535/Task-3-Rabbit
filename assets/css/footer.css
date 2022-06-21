@@ -1,0 +1,91 @@
+.wrapper-footer {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.wrapper-footer .message-title {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    color: rgb(255, 203, 131);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: "WireOne-Regular";
+}
+
+/* form */
+.wrapper-footer .message-form {
+    text-align: center;
+}
+
+.wrapper-footer .message-form div {
+    margin-top: 20px;
+}
+
+.wrapper-footer .message-form .label {
+    color: rgb(255, 203, 131);
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+input[type=text] {
+    width: 1100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(247, 246, 245);
+    border: none;
+    box-shadow: 0px 2px 0px rgb(221, 219, 218) inset,
+        3px 0px 0px rgb(199, 197, 196) inset;
+}
+
+input[type=email] {
+    width: 1100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(247, 246, 245);
+    border: none;
+    box-shadow: 0px 2px 0px rgb(221, 219, 218) inset,
+        3px 0px 0px rgb(199, 197, 196) inset;
+}
+
+#message {
+    height: 90px;
+    font-size: 20px;
+    width: 1100px;
+    height: 90px;
+    position: relative;
+    right: 10px;
+    background-color: rgb(247, 246, 245);
+    border: none;
+    box-shadow: 0px 2px 0px rgb(221, 219, 218) inset,
+        3px 0px 0px rgb(199, 197, 196) inset;
+}
+
+#label-message {
+    position: relative;
+    bottom: 80px;
+}
+
+input[type=submit] {
+    margin: 20px 0px 0px 960px;
+    border: none;
+    width: 172px;
+    height: 46px;
+    background-color: rgb(255, 144, 42);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+/* error */
+.wrapper-footer .message-form form p {
+    color: rgb(255, 0, 0);
+}
+
+.wrapper-footer .message-form .reg-complete {
+    color: rgb(73, 175, 88);
+    font-size: 30px;
+}

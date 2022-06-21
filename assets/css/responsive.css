@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1235px) {
+
+    input[type=text] {
+        width: 80%;
+    }
+
+    input[type=email] {
+        width: 80%;
+    }
+
+    #message {
+        width: 80%;
+    }
+
+    input[type=submit] {
+        margin-left: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 1155px) {
+
+    .wrapper-main-info {
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .wrapper-meet-the-team .wrapper-persons {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .wrapper-footer {
+        margin-top: 550px;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+
+    .wrapper-header {
+        height: 150px;
+    }
+
+    .wrapper-header .wrapper-menu {
+        margin-top: 40px;
+    }
+
+    .wrapper-header .wrapper-logo .logo-content .orange {
+        position: unset;
+    }
+
+    .wrapper-header .wrapper-logo .logo-content .rabbit {
+        position: unset;
+        margin-top: 0px;
+        padding-left: 20px;
+    }
+
+    .wrapper-header .wrapper-logo .logo-content {
+        display: flex;
+    }
+
+    .wrapper-main-img .wrapper-text-content {
+        margin: 0 auto;
+    }
+
+    .wrapper-footer {
+        margin-top: 1050px;
+    }
+
+    input[type=submit] {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    input[type=text] {
+        width: 40%;
+    }
+
+    input[type=email] {
+        width: 40%;
+    }
+
+    #message {
+        width: 40%;
+    }
+
+    #message {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 453px) {
+    
+    .wrapper-header .wrapper-logo .logo-content {
+        padding-left: 0px;
+    }
+
+    .wrapper-main-img .wrapper-text-content {
+        display: none;
+    }
+
+    .wrapper-header .wrapper-logo .logo-content .rabbit {
+        padding-left: 0px;
+    }
+}

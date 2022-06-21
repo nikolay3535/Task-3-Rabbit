@@ -1,0 +1,164 @@
+/* photo and content */
+.wrapper-main-img {
+    width: 100%;
+    height: 410px;
+    box-sizing: border-box;
+    border-top: 3px solid rgb(255, 152, 75);
+    border-bottom: 3px solid rgb(255, 152, 75);
+    background-image: url(../images/photos/orange.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-main-img .wrapper-text-content {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: 208px;
+    padding: 27px;
+}
+
+.wrapper-main-img .text-content-rabbit {
+    width: 382px;
+    height: 66px;
+    box-sizing: border-box;
+    background-color: rgb(66, 70, 70);
+    margin: 0 auto;
+    color: rgb(255, 147, 41);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.wrapper-main-img .text-content-orange {
+    width: 397px;
+    height: 78px;
+    box-sizing: border-box;
+    background-color: thistle;
+    margin-top: 27px;
+    color: rgb(95, 97, 96);
+    background-color: rgb(255, 191, 91);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* box-information */
+.wrapper-main-info {
+    width: 100%;
+    height: 210px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper-main-info .main-text-contain {
+    width: 260px;
+    height: auto;
+    box-sizing: border-box;
+    color: rgb(95, 95, 95);
+    position: relative;
+    padding-top: 10px;
+}
+
+.wrapper-main-info .main-text-contain .more-info {
+    width: 80px;
+    height: auto;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0px;
+}
+
+.wrapper-main-info .main-text-contain .more-info :link {
+    text-decoration: none;
+    color: rgb(255, 203, 131);
+}
+
+.wrapper-main-info .main-text-contain .more-info :visited {
+    color: rgb(255, 203, 131);
+}
+
+/* meet-the-team */
+.wrapper-meet-the-team {
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    border-top: 3px solid rgb(247, 247, 247);
+}
+
+/* persons */
+.wrapper-meet-the-team .meet {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    color: rgb(255, 203, 131);
+    text-align: center;
+    text-decoration: underline;
+    font-family: "WireOne-Regular";
+    font-size: 40px;
+}
+
+.wrapper-meet-the-team .wrapper-persons {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper-meet-the-team .person {
+    width: 410px;
+    height: 500px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.wrapper-meet-the-team .person :link {
+    text-decoration: none;
+    color: rgb(255, 203, 131);
+}
+
+.wrapper-meet-the-team .person :visited {
+    color: rgb(255, 203, 131);
+}
+
+.wrapper-meet-the-team .wrapper-person-photo {
+    width: 310px;
+    height: 310px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 170, 71);
+    margin: 10px auto;
+}
+
+.wrapper-meet-the-team .wrapper-person-photo .person-photo {
+    width: 290px;
+    height: 290px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.wrapper-meet-the-team .wrapper-person-photo .person-photo img {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+}
+
+.wrapper-meet-the-team .person .person-details {
+    width: 313px;
+    height: auto;
+    box-sizing: border-box;
+    color: rgb(155, 155, 155);
+    margin: 0 auto;
+    padding-top: 10px;
+}

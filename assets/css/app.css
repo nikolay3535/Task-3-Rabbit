@@ -1,0 +1,7 @@
+@import url(header.css);
+@import url(body.css);
+@import url(footer.css);
+/* fonts */
+@import url(fonts.css);
+/* responsive */
+@import url(responsive.css);
